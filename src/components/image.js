@@ -5,13 +5,12 @@ import {css} from 'emotion';
    
 const image = ({ src }) => {
     return (
-        <figure>
-             <img className={css({
+        <img className={css({
+            
             width: '50%',
             height: '250px',
-        })} src={props.src} alt={props.alt}/>
-        </figure>
-       
+            
+        })} src={src} />
         
     ) 
 }   
